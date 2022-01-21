@@ -61,7 +61,7 @@ use Illuminate\Support\Facades\Auth;
             <div class="bookmark-wrapper d-flex align-items-center">
             <a class="navbar-brand" href="">
 
-                        <h3 class="brand-text">Nathania VW</h3>
+                        <h3 class="brand-text">DPRKP</h3>
             </a>
             </div>
         </div>

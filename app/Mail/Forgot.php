@@ -29,8 +29,8 @@ class Forgot extends Mailable
      */
     public function build()
     {
-        return $this->from('maillabirin@gmail.com')
-            ->subject('SIDU SMK BC - Forgot password')
+        return $this->from('didiroyadi123@gmail.com')
+            ->subject('DPRKP- Forgot password')
             ->view('forgotmail');
     }
 }

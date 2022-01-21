@@ -4,5 +4,5 @@
     $token = $data['token'];
     $email = $data['email'];
 @endphp
-<p>Untuk mulai mengunakan akun anda silahkan aktivasi akun anda terlebih dahulu.</p><a
+<p>Untuk mulai mengunakan akun anda silahkan mati terlebih dahulu.</p><a
     href="{{ url('/verify/'.$token.'/'.$email) }}">...Klik Disini...</a>

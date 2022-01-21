@@ -31,7 +31,7 @@ class Pembatalan_Jadwal_Operasi extends Mailable
      */
     public function build()
     {
-        return $this->from('maillabirin@gmail.com')
+        return $this->from('didiroyadi@gmail.com')
             ->view('kepala_ruangan.operasi.email_jadwal');
     }
 }

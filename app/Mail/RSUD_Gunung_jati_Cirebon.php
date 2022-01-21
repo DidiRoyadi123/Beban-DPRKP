@@ -29,8 +29,8 @@ class RSUD_Gunung_jati_Cirebon extends Mailable
      */
     public function build()
     {
-        return $this->from('maillabirin@gmail.com')
-            ->subject('UD CIPTA INDAH - Ferivikasi email')
+        return $this->from('didiroyadi123@gmail.com')
+            ->subject('DePeeRKaPe - peripikasi email')
             ->view('registermail');
     }
 }

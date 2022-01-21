@@ -16,15 +16,15 @@
                     <div class="auth-inner row m-0">
                         <!-- Brand logo--><a class="brand-logo" href="javascript:void(0);">
                             <div class="row mx-1 mt-1">
-                                <img class="" src="{{ asset('/images/logo/panda2.png') }}" height="40" width="40">
-                                <h2 class="brand-text text-primary ml-1 mt-50">Nathania VW</h2>
+                                <img class="" src="{{ asset('/images/logo/logo.jpeg') }}" height="40" width="40">
+                                <h2 class="brand-text text-primary ml-1 mt-50">DPRKP</h2>
                             </div>
                         </a>
                         <!-- /Brand logo-->
                         <!-- Left Text-->
                         <div class="d-none d-lg-flex col-lg-8 align-items-center p-5">
                             <div class="w-100 d-lg-flex align-items-center justify-content-center px-5"><img
-                                    class="img-fluid" src="{{ asset('/images/pages/register-v2.svg') }}" alt="Login V2">
+                                    class="img-fluid" src="{{ asset('/images/pages/LOGINIH.png') }}" alt="Login V2">
                             </div>
                         </div>
                         <!-- /Left Text-->

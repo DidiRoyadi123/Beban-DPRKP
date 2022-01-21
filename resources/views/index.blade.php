@@ -30,45 +30,12 @@ use App\Models\User;
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
         <div class="row">
+        <marquee behavior="" scrollamount="10" direction="right"><h1>Selamat Datang Di Web Dinas Perumahan Rakyat & Kawasan Permukiman</h1></marquee>
             <div class="col">
-            <div class="w-100 d-lg-flex align-items-center justify-content-center px-5"><img
-                                    class="img-fluid" src="{{ asset('/images/pages/welcome.svg') }}" alt="Login V2">
+            <div class="w-200 d-lg-flex align-items-center justify-content-center px-8"><img
+                                    class="img-fluid" src="{{ asset('/images/pages/landing.jpg') }}" alt="Login V2">
                             </div>
-            </div>
-            <div class="col">
-                <div class="content-body">
-                    {{-- <div class="row">
-                        <div class="col-12">
-                            <div class="alert alert-primary" role="alert">
-                                <div class="alert-body"><strong>Info:</strong> Please check the&nbsp;<a class="text-primary"
-                                        href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation/documentation-layout-without-menu.html"
-                                        target="_blank">Layout without menu documentation</a>&nbsp; for more details.</div>
-                            </div>
-                        </div>
-                    </div><!-- Dashboard Ecommerce Starts --> --}}
-                    <section id="dashboard-ecommerce">
-                        <div class="pricing-free-trial">
-                            <table class="table table-sm table-hover-animation">
-                                <thead>
-                                    <tr>
-                                        <th>ID User</th>
-                                        <th>Nama User</th>
-                                        <th>Email User</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                @foreach ($users as $user)
-                                <tr>
-                                    <td>{{ $user['id'] }}</td>
-                                    <td>{{ $user['name'] }}</td>
-                                    <td>{{ $user['email'] }}</td>
-                                </tr>
-                                @endforeach
-                                </tbody>
-                            </table>
-                        </div>
-                    </section>
-                    <!-- Dashboard Ecommerce ends -->
+            
 
                 </div>
             </div>
